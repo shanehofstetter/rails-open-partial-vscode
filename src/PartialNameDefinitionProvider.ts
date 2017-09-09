@@ -23,6 +23,7 @@ export default class PartialNameDefinitionProvider implements DefinitionProvider
   }
 
   getPartialNameFromLine(line_text){
+    if (!(/partial/.test(line_text))) { return "" }
     var line_text = line_text.split(" ").filter(function(i){ return i != "" }).join(" ")
     var after_partial = line_text.split(/partial\(|partial\ /)[1]
     var first_argument = after_partial.split(/\ |\,/)[0]
