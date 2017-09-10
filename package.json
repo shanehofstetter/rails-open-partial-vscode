@@ -2,7 +2,7 @@
     "name": "middleman-partial-trasporter",
     "displayName": "Middleman partial trasporter",
     "description": "help to open partial file with go to definition",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "miguel-savignano",
     "license": "SEE LICENSE IN LICENSE.md",
     "icon": "images/icon.jpeg",
