@@ -6,6 +6,10 @@
     "publisher": "miguel-savignano",
     "license": "SEE LICENSE IN LICENSE.md",
     "icon": "images/icon.jpeg",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MiguelSavignano/middleman-partial-trasporter"
+    },
     "engines": {
         "vscode": "^1.15.0"
     },
