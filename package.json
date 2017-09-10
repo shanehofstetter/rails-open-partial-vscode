@@ -4,6 +4,8 @@
     "description": "help to open partial file with go to definition",
     "version": "0.0.1",
     "publisher": "miguel-savignano",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "icon": "images/icon.jpeg",
     "engines": {
         "vscode": "^1.15.0"
     },
