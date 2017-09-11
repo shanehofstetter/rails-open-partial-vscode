@@ -28,6 +28,12 @@ export default class PartialNameDefinitionProvider implements DefinitionProvider
     var after_partial = line_text.split(/partial\(|partial\ /)[1]
     var first_argument = after_partial.split(/\ |\,/)[0]
     var partial_name = first_argument.replace(/\"|\'|\)|\:/g, "")
-    return partial_name
+    return this.underscorePartialName(partial_name)
+  }
+
+  underscorePartialName(partial_name){
+    return partial_name.split("/").map(function(item, index, array){
+      return index == array.length - 1 ? "_" + item : item
+    }).join("/")
   }
 }
