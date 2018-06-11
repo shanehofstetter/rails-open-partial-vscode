@@ -1,14 +1,14 @@
 {
-    "name": "middleman-partial-trasporter",
-    "displayName": "Middleman partial trasporter",
-    "description": "help to open partial file with go to definition",
+    "name": "rails-open-partial",
+    "displayName": "Rails Open Partials",
+    "description": "open partial file with go to definition",
     "version": "0.0.3",
-    "publisher": "miguel-savignano",
+    "publisher": "shanehofstetter",
     "license": "SEE LICENSE IN LICENSE.md",
     "icon": "images/icon.jpeg",
     "repository": {
         "type": "git",
-        "url": "https://github.com/MiguelSavignano/middleman-partial-trasporter"
+        "url": "https://github.com/shanehofstetter/rails-open-partial-vscode"
     },
     "engines": {
         "vscode": "^1.15.0"
@@ -17,7 +17,8 @@
         "Other"
     ],
     "activationEvents": [
-        "onLanguage:html"
+        "onLanguage:haml",
+        "onLanguage:erb"
     ],
     "main": "./out/src/extension",
     "contributes": {
