@@ -22,9 +22,7 @@
     ],
     "main": "./out/src/extension",
     "contributes": {
-        "commands": [
-            {}
-        ]
+        "commands": []
     },
     "scripts": {
         "publish": "vsce publish",

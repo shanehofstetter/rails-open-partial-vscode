@@ -3,9 +3,11 @@ import * as vscode from 'vscode'
 import PartialNameDefinitionProvider from './PartialNameDefinitionProvider'
 
 export function activate(context: vscode.ExtensionContext) {
-  console.log('Congratulations, your extension "middleman-partial-trasporter" is now active!')
-  var selector = { language: 'html', scheme: 'file' }
-  context.subscriptions.push(vscode.languages.registerDefinitionProvider(selector, new PartialNameDefinitionProvider))
+  console.log('activated extension "rails-open-partial"');
+  const HAML = { language: 'haml', scheme: 'file' };
+  const ERB = { language: 'erb', scheme: 'file' };
+  context.subscriptions.push(vscode.languages.registerDefinitionProvider(HAML, new PartialNameDefinitionProvider));
+  context.subscriptions.push(vscode.languages.registerDefinitionProvider(ERB, new PartialNameDefinitionProvider));
 }
 
 export function deactivate() {
