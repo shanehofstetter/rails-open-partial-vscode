@@ -2,10 +2,10 @@
     "name": "rails-open-partial",
     "displayName": "Rails Open Partials",
     "description": "open partial file with go to definition",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "shanehofstetter",
     "license": "SEE LICENSE IN LICENSE.md",
-    "icon": "images/icon.jpeg",
+    "icon": "images/icon.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/shanehofstetter/rails-open-partial-vscode"
