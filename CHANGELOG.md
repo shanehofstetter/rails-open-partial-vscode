@@ -1,7 +1,7 @@
 # Change Log
-All notable changes to the "middleman-partial-trasporter" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 0.0.5
+- Add Howto Gif
 
-## [Unreleased]
-- Initial release
+## 0.0.4
+- support opening ruby on rails partials in haml and erb files using go-to-definition
