@@ -2,7 +2,7 @@
     "name": "rails-open-partial",
     "displayName": "Rails Open Partials",
     "description": "open partial file with go to definition",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "shanehofstetter",
     "license": "SEE LICENSE IN LICENSE.md",
     "icon": "images/icon.png",
